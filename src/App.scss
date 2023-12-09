@@ -1,0 +1,27 @@
+html { 
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: #ffff;
+  color: #4b2086;
+  overflow-x: hidden;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+}

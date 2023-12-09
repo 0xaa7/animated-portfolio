@@ -33,8 +33,8 @@ const imageVariants = {
     x:0,
     opacity:1,
     transition:{
-      duration:1,
-      staggerChildren: 0.1,
+      duration:2,
+      staggerChildren: 0.2,
     }
   }
 }

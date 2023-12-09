@@ -1,4 +1,4 @@
-import "./links.scss"
+
 import { motion } from "framer-motion";
 
  const variants = {
@@ -35,7 +35,8 @@ const Links = () => {
  
   return (
     <motion.div className='links' variants={variants}>
-      <h1>Pick your Purr!</h1>
+      <motion.h1 whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }} >Pick your Purr!</motion.h1>
       {items.map(item=>(
         <motion.a 
           href={`#${item}`} 

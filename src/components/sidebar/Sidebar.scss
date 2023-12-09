@@ -5,7 +5,7 @@
   justify-content: center;
   background-color: white;
   color: black;
-  z-index: 2;
+ 
   
 
   .bg {
@@ -14,8 +14,12 @@
     right: 0;
     bottom: 0;
     width: 400px;
-    background: rgba(255, 255, 255, 0.555);
-    z-index: 2;
+    background: #ebf3fe;
+    background-image: url("kitty5.png");
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: center 18px;
+   
 
 
     .links {
@@ -27,8 +31,26 @@
       align-items: center;
       justify-content: center;
 
-        a{
+      h1 {
+          font-weight: 700;
           font-size: 40px;
+          color: #4b1794;
+          cursor: pointer;
+          user-select: none;
+          margin-top: 55px;
+          
+        }
+
+                h1:hover {
+                  color: #eb4687;
+                }
+
+        a{
+          font-size: 30px;
+          color: #4b1794;
+        }
+        a:hover {
+          color: #eb4687;
         }
 
     }
